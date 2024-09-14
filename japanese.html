@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>クロスボーダーEコマース</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="loglan">  
+                <div class="logo">                
+                    <a href="#"><img src="logo.jpeg" alt="ロゴ"></a>
+                </div>
+                <div class="country">
+                    <select name="language" id="language" onchange="changeLanguage()">
+                        <option value="" disabled selected>言語を選択</option>
+                        <option value="main.html">English</option>
+                        <option value="hindi.html">हिन्दी</option>
+                        <option value="japanese.html">日本語</option>
+                        <option value="russion.html">русский</option>
+                        <option value="spanish.html">español</option>
+                        <option value="arab.html">عربي</option>
+                        <option value="french.html">français</option>
+                    </select>
+                </div>
+            </div>
+            <ul class="nav-links">
+                <li><a href="japanese.html" class="active">ホーム</a></li>
+                <li><a href="#">製品</a></li>
+                <li><a href="#">私たちについて</a></li>
+                <li><a href="#">お問い合わせ</a></li>
+            </ul>
+            <div class="login"><a href="login.html">ログイン / サインアップ</a></div>
+            <div class="menu-toggle" id="menu-toggle">☰</div>
+        </nav>
+    </header>
+
+    <section class="categories">
+        <h2>製品カテゴリ</h2>
+        <div class="category-container">
+            <a href="#" class="category-item">
+                <img src="electronics.jpg" alt="エレクトロニクス">
+                <p>エレクトロニクス</p>
+            </a>
+            <a href="#" class="category-item">
+                <img src="fashion.jpeg" alt="ファッション">
+                <p>ファッション</p>
+            </a>
+            <a href="#" class="category-item">
+                <img src="home.jpeg" alt="ホーム＆家具">
+                <p>ホーム＆家具</p>
+            </a>
+            <a href="#" class="category-item">
+                <img src="books.jpeg" alt="書籍">
+                <p>書籍</p>
+            </a>
+            <a href="#" class="category-item">
+                <img src="sports.jpeg" alt="スポーツ">
+                <p>スポーツ</p>
+            </a>
+        </div>
+    </section>
+
+    <section class="hero">
+        <h1 class="about">私たちについて</h1>
+    </section>
+
+    <div class="container content">
+        <h2>私たちの物語</h2>
+        <p>ようこそYourEcommerceへ！私たちは、最高のオンラインショッピング体験を提供するというビジョンでスタートしました。私たちの旅は2019年に始まり、その後、品質の高い製品と卓越した顧客サービスを提供する主要なeコマースプラットフォームへと成長しました。</p>
+        
+        <h2>私たちの使命</h2>
+        <p>私たちの使命は、幅広いトップクラスの製品でシームレスなショッピング体験を提供することです。私たちは革新と卓越性にコミットし、顧客の期待を超え、長期的な関係を築くために努力しています。</p>
+
+        <h2>チームに会いましょう</h2>
+        <div class="team">
+            <div class="team-member">
+                <h3>チームメンバー</h3>
+                <h3>サチン・グプタ</h3>
+                <p>CEO & Founder</p>
+                <p>サチンはYourEcommerceの背後にある推進力であり、ビジョンと献身で会社をリードしています。</p>
+            </div>
+            <div class="team-member">
+                <h3>チームメンバー</h3>
+                <h3>アリヤン・ラジバー</h3>
+                <p>COO</p>
+                <p>アリヤンは日々の業務を管理し、プロセスがスムーズに進むようにし、優れたサービスを提供します。</p>
+            </div>
+            <div class="team-member">
+                <h3>チームメンバー</h3>
+                <h3>シバム・パール</h3>
+                <p>マーケティングディレクター</p>
+                <p>シバムは私たちのマーケティング活動をリードし、ブランドを強化し、新しい顧客にリーチするための戦略を策定します。</p>
+            </div>
+        </div>
+    </div>
+
+    <section id="slider-section">
+        <h1 class="explore">さらに探索しよう！</h1>
+        <div class="paint">
+            <h1>絵画</h1>
+            <img src="paint.jpg" alt="絵画">
+
+            <h1>服</h1>
+            <img src="cloth.jpg" alt="服">
+
+            <h1>靴</h1>
+            <img src="shoe.jpg" alt="靴">
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section aboutus">
+                <h2>私たちについて</h2>
+                <p>すべてのニーズに応えるeコマースプラットフォームです。比類のない価格で高品質な製品を提供します。</p>
+            </div>
+            <div class="footer-section links">
+                <h2>クイックリンク</h2>
+                <ul>
+                    <li><a href="japanese.html">ホーム</a></li>
+                    <li><a href="#">ショップ</a></li>
+                    <li><a href="#">私たちについて</a></li>
+                    <li><a href="#">お問い合わせ</a></li>
+                    <li><a href="#">FAQ</a></li>
+                </ul>
+            </div>
+            <div class="footer-section contact">
+                <h2>お問い合わせ</h2>
+                <p><i class="fas fa-envelope"></i> support@ecommerce.com</p>
+                <p><i class="fas fa-phone"></i> +1 234 567 890</p>
+                <p><i class="fas fa-map-marker-alt"></i> 1234 ストリート名, 市区町村, 国</p>
+            </div>
+            <div class="accept">
+                <h2>お支払い方法</h2>
+                <a href="#">Visa</a>
+                <a href="#">Mastercard</a>
+                <a href="#">PayPal</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 YourEcommerce | デザイン <strong>Team Hackaholics</strong></p>
+        </div>
+    </footer>
+    <script src="main.js"></script>
+    <script>
+        function changeLanguage() {
+            var lang = document.getElementById('language').value;
+            if (lang) {
+                window.location.href = lang;
+            }
+        }
+    </script>
+</body>
+</html>

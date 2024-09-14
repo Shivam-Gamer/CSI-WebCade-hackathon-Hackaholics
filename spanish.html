@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comercio Electrónico Transfronterizo</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="loglan">  
+                <div class="logo">                
+                    <a href="#"><img src="logo.jpeg" alt="Logo"></a>
+                </div>
+                <div class="country">
+                    <select name="language" id="language" onchange="changeLanguage()">
+                        <option value="" disabled selected>Selecciona el idioma</option>
+                        <option value="main.html">English</option>
+                        <option value="hindi.html">हिन्दी</option>
+                        <option value="japanese.html">日本語</option>
+                        <option value="russion.html">русский</option>
+                        <option value="spanish.html">español</option>
+                        <option value="arab.html">عربي</option>
+                        <option value="french.html">français</option>
+                    </select>
+                </div>
+            </div>
+            <ul class="nav-links">
+                <li><a href="spanish.html" class="active">Inicio</a></li>
+                <li><a href="#">Productos</a></li>
+                <li><a href="#">Sobre nosotros</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+            <div class="login"><a href="login.html">Iniciar sesión / Registrarse</a></div>
+            <div class="menu-toggle" id="menu-toggle">☰</div>
+        </nav>
+    </header>
+
+    <section class="categories">
+        <h2>Categorías de productos</h2>
+        <div class="category-container">
+            <a href="#" class="category-item">
+                <img src="electronics.jpg" alt="Electrónica">
+                <p>Electrónica</p>
+            </a>
+            <a href="#" class="category-item">
+                <img src="fashion.jpeg" alt="Moda">
+                <p>Moda</p>
+            </a>
+            <a href="#" class="category-item">
+                <img src="home.jpeg" alt="Hogar y Muebles">
+                <p>Hogar y Muebles</p>
+            </a>
+            <a href="#" class="category-item">
+                <img src="books.jpeg" alt="Libros">
+                <p>Libros</p>
+            </a>
+            <a href="#" class="category-item">
+                <img src="sports.jpeg" alt="Deportes">
+                <p>Deportes</p>
+            </a>
+        </div>
+    </section>
+
+    <section class="hero">
+        <h1 class="about">Sobre nosotros</h1>
+    </section>
+
+    <div class="container content">
+        <h2>Nuestra historia</h2>
+        <p>¡Bienvenido a YourEcommerce! Empezamos con la visión de ofrecer la mejor experiencia de compra en línea. Nuestra historia comenzó en 2019, y desde entonces hemos evolucionado a una plataforma de comercio electrónico líder, dedicada a ofrecer productos de alta calidad y un servicio al cliente excepcional.</p>
+        
+        <h2>Nuestra misión</h2>
+        <p>Nuestra misión es proporcionar una experiencia de compra fluida con una amplia gama de productos de alta calidad. Estamos comprometidos con la innovación y la excelencia, y nos esforzamos por superar las expectativas de los clientes y construir relaciones duraderas.</p>
+
+        <h2>Conoce al equipo</h2>
+        <div class="team">
+            <div class="team-member">
+                <h3>Miembro del equipo</h3>
+                <h3>Sachin Gupta</h3>
+                <p>CEO & Founder</p>
+                <p>Sachin es la fuerza impulsora detrás de YourEcommerce, liderando la empresa con visión y dedicación.</p>
+            </div>
+            <div class="team-member">
+                <h3>Miembro del equipo</h3>
+                <h3>Aryan Rajbar</h3>
+                <p>COO</p>
+                <p>Aryan gestiona las operaciones diarias, asegurando que los procesos funcionen sin problemas y brindando un excelente servicio.</p>
+            </div>
+            <div class="team-member">
+                <h3>Miembro del equipo</h3>
+                <h3>Shivam Pal</h3>
+                <p>Director de Marketing</p>
+                <p>Shivam lidera nuestros esfuerzos de marketing, desarrolla estrategias para fortalecer nuestra marca y llegar a nuevos clientes.</p>
+            </div>
+        </div>
+    </div>
+
+    <section id="slider-section">
+        <h1 class="explore">¡Explora más!</h1>
+        <div class="paint">
+            <h1>Pinturas</h1>
+            <img src="paint.jpg" alt="Pinturas">
+
+            <h1>Ropa</h1>
+            <img src="cloth.jpg" alt="Ropa">
+
+            <h1>Zapatos</h1>
+            <img src="shoe.jpg" alt="Zapatos">
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section aboutus">
+                <h2>Sobre nosotros</h2>
+                <p>Tu plataforma de comercio electrónico para todas tus necesidades. Ofrecemos productos de alta calidad a precios inigualables.</p>
+            </div>
+            <div class="footer-section links">
+                <h2>Enlaces rápidos</h2>
+                <ul>
+                    <li><a href="spanish.html">Inicio</a></li>
+                    <li><a href="#">Tienda</a></li>
+                    <li><a href="#">Sobre nosotros</a></li>
+                    <li><a href="#">Contacto</a></li>
+                    <li><a href="#">FAQ</a></li>
+                </ul>
+            </div>
+            <div class="footer-section contact">
+                <h2>Contacto</h2>
+                <p><i class="fas fa-envelope"></i> support@ecommerce.com</p>
+                <p><i class="fas fa-phone"></i> +1 234 567 890</p>
+                <p><i class="fas fa-map-marker-alt"></i> 1234 Calle, Ciudad, País</p>
+            </div>
+            <div class="accept">
+                <h2>Aceptamos</h2>
+                <a href="#">Visa</a>
+                <a href="#">Mastercard</a>
+                <a href="#">PayPal</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 YourEcommerce | Diseñado por <strong>Hackaholics Team</strong></p>
+        </div>
+    </footer>
+    <script src="main.js"></script>
+    <script>
+        function changeLanguage() {
+            var lang = document.getElementById('language').value;
+            if (lang) {
+                window.location.href = lang;
+            }
+        }
+    </script>
+</body>
+</html>

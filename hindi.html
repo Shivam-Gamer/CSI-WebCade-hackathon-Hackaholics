@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>क्रॉस बॉर्डर ई-कॉमर्स</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="loglan">  
+                <div class="logo">                
+                    <a href="#"><img src="logo.jpeg" alt="लोगो"></a>
+                </div>
+                <div class="country">
+                    <select name="language" id="language" onchange="changeLanguage()">
+                        <option value="" disabled selected>भाषा चुनें</option>
+                        <option value="main.html">English</option>
+                        <option value="hindi.html">हिन्दी</option>
+                        <option value="japanese.html">日本語</option>
+                        <option value="russion.html">русский</option>
+                        <option value="spanish.html">español</option>
+                        <option value="arab.html">عربي</option>
+                        <option value="french.html">français</option>
+                    </select>
+                </div>
+            </div>
+            <ul class="nav-links">
+                <li><a href="hindi.html" class="active">होम</a></li>
+                <li><a href="#">उत्पाद</a></li>
+                <li><a href="#hero">हमारे बारे में</a></li>
+                <li><a href="#">संपर्क</a></li>
+            </ul>
+            <div class="login"><a href="login.html">लॉगिन / साइन अप</a></div>
+            <div class="menu-toggle" id="menu-toggle">☰</div>
+        </nav>
+    </header>
+
+    <section class="categories">
+        <h2>उत्पाद श्रेणियाँ</h2>
+        <div class="category-container">
+            <a href="#" class="category-item">
+                <img src="electronics.jpg" alt="इलेक्ट्रॉनिक्स">
+                <p>इलेक्ट्रॉनिक्स</p>
+            </a>
+            <a href="#" class="category-item">
+                <img src="fashion.jpeg" alt="फैशन">
+                <p>फैशन</p>
+            </a>
+            <a href="#" class="category-item">
+                <img src="home.jpeg" alt="होम और फर्नीचर">
+                <p>होम और फर्नीचर</p>
+            </a>
+            <a href="#" class="category-item">
+                <img src="books.jpeg" alt="किताबें">
+                <p>किताबें</p>
+            </a>
+            <a href="#" class="category-item">
+                <img src="sports.jpeg" alt="खेल">
+                <p>खेल</p>
+            </a>
+        </div>
+    </section>
+
+    <section class="hero" id="hero">
+        <h1 class="about">हमारे बारे में</h1>
+    </section>
+
+    <div class="container content">
+        <h2>हमारी कहानी</h2>
+        <p>आपका स्वागत है YourEcommerce में! हमने बेहतरीन ऑनलाइन शॉपिंग अनुभव प्रदान करने की दृष्टि से शुरुआत की। हमारी यात्रा 2019 में शुरू हुई थी, और वर्षों से, हम एक प्रमुख ई-कॉमर्स प्लेटफॉर्म में विकसित हो गए हैं जो उच्च गुणवत्ता वाले उत्पाद और असाधारण ग्राहक सेवा प्रदान करने के लिए समर्पित है।</p>
+        
+        <h2>हमारा मिशन</h2>
+        <p>हमारा मिशन एक सहज शॉपिंग अनुभव प्रदान करना है जिसमें शीर्ष गुणवत्ता के उत्पादों की एक विस्तृत श्रृंखला हो। हम नवाचार और उत्कृष्टता के प्रति प्रतिबद्ध हैं, ग्राहक की अपेक्षाओं को पार करने और स्थायी संबंध बनाने के लिए प्रयासरत हैं।</p>
+
+        <h2>टीम से मिलें</h2>
+        <div class="team">
+            <div class="team-member">
+                <h3>टीम सदस्य</h3>
+                <h3>सचिन गुप्ता</h3>
+                <p>CEO & Founder</p>
+                <p>सचिन YourEcommerce के पीछे प्रेरक शक्ति हैं, कंपनी को दृष्टि और समर्पण के साथ नेतृत्व करते हैं।</p>
+            </div>
+            <div class="team-member">
+                <h3>टीम सदस्य</h3>
+                <h3>आर्यन राजभर</h3>
+                <p>COO</p>
+                <p>आर्यन दिन-प्रतिदिन की गतिविधियों का प्रबंधन करते हैं, सुनिश्चित करते हैं कि प्रक्रियाएँ सुचारू रूप से चलें और उत्कृष्ट सेवा प्रदान की जाए।</p>
+            </div>
+            <div class="team-member">
+                <h3>टीम सदस्य</h3>
+                <h3>शिवम पाल</h3>
+                <p>Marketing Director</p>
+                <p>शिवम हमारे मार्केटिंग प्रयासों का नेतृत्व करते हैं, हमारे ब्रांड को बढ़ाने और नए ग्राहकों तक पहुंचने के लिए रणनीतियाँ बनाते हैं।</p>
+            </div>
+        </div>
+    </div>
+
+    <section id="slider-section">
+        <h1 class="explore">और अधिक खोजें!</h1>
+        <div class="paint">
+            <h1>चित्र</h1>
+            <img src="paint.jpg" alt="चित्र">
+
+            <h1>कपड़े</h1>
+            <img src="cloth.jpg" alt="कपड़े">
+
+            <h1>जूते</h1>
+            <img src="shoe.jpg" alt="जूते">
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section aboutus">
+                <h2>हमारे बारे में</h2>
+                <p>आपका ई-कॉमर्स प्लेटफॉर्म आपकी सभी जरूरतों के लिए। हम बेजोड़ कीमतों पर उच्च गुणवत्ता वाले उत्पाद प्रदान करते हैं।</p>
+            </div>
+            <div class="footer-section links">
+                <h2>त्वरित लिंक</h2>
+                <ul>
+                    <li><a href="hindi.html">होम</a></li>
+                    <li><a href="#">खरीदें</a></li>
+                    <li><a href="#">हमारे बारे में</a></li>
+                    <li><a href="#">संपर्क करें</a></li>
+                    <li><a href="#">सामान्य प्रश्न</a></li>
+                </ul>
+            </div>
+            <div class="footer-section contact">
+                <h2>संपर्क करें</h2>
+                <p><i class="fas fa-envelope"></i> support@ecommerce.com</p>
+                <p><i class="fas fa-phone"></i> +1 234 567 890</p>
+                <p><i class="fas fa-map-marker-alt"></i> 1234 स्ट्रीट नाम, शहर, देश</p>
+            </div>
+            <div class="accept">
+                <h2>हम स्वीकार करते हैं</h2>
+                <a href="#">विज़ा</a>
+                <a href="#">मास्टरकार्ड</a>
+                <a href="#">पेपल</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 YourEcommerce | डिजाइन किया गया <strong>टीम हैकाहोलिक्स</strong></p>
+        </div>
+    </footer>
+    <script src="main.js"></script>
+    <script>
+        function changeLanguage() {
+            var lang = document.getElementById('language').value;
+            if (lang) {
+                window.location.href = lang;
+            }
+        }
+    </script>
+</body>
+</html>

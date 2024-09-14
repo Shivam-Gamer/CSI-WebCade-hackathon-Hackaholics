@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>التجارة الإلكترونية عبر الحدود</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="loglan">  
+                <div class="logo">                
+                    <a href="#"><img src="logo.jpeg" alt="الشعار"></a>
+                </div>
+                <div class="country">
+                    <select name="language" id="language" onchange="changeLanguage()">
+                        <option value="" disabled selected>اختر اللغة</option>
+                        <option value="main.html">English</option>
+                        <option value="hindi.html">हिन्दी</option>
+                        <option value="japanese.html">日本語</option>
+                        <option value="russion.html">русский</option>
+                        <option value="spanish.html">español</option>
+                        <option value="arab.html">عربي</option>
+                        <option value="french.html">français</option>
+                    </select>
+                </div>
+            </div>
+            <ul class="nav-links">
+                <li><a href="arab.html" class="active">الرئيسية</a></li>
+                <li><a href="#">المنتجات</a></li>
+                <li><a href="#">من نحن</a></li>
+                <li><a href="#">اتصل بنا</a></li>
+            </ul>
+            <div class="login"><a href="login.html">تسجيل الدخول / تسجيل</a></div>
+            <div class="menu-toggle" id="menu-toggle">☰</div>
+        </nav>
+    </header>
+
+    <section class="categories">
+        <h2>فئات المنتجات</h2>
+        <div class="category-container">
+            <a href="#" class="category-item">
+                <img src="electronics.jpg" alt="الإلكترونيات">
+                <p>الإلكترونيات</p>
+            </a>
+            <a href="#" class="category-item">
+                <img src="fashion.jpeg" alt="الأزياء">
+                <p>الأزياء</p>
+            </a>
+            <a href="#" class="category-item">
+                <img src="home.jpeg" alt="المنزل والأثاث">
+                <p>المنزل والأثاث</p>
+            </a>
+            <a href="#" class="category-item">
+                <img src="books.jpeg" alt="الكتب">
+                <p>الكتب</p>
+            </a>
+            <a href="#" class="category-item">
+                <img src="sports.jpeg" alt="الرياضة">
+                <p>الرياضة</p>
+            </a>
+        </div>
+    </section>
+
+    <section class="hero">
+        <h1 class="about">من نحن</h1>
+    </section>
+
+    <div class="container content">
+        <h2>قصتنا</h2>
+        <p>مرحبا بك في YourEcommerce! بدأنا برؤية لتقديم أفضل تجربة تسوق عبر الإنترنت. بدأت رحلتنا في عام 2019، ومنذ ذلك الحين تطورنا إلى منصة تجارة إلكترونية رائدة مكرسة لتقديم منتجات عالية الجودة وخدمة عملاء استثنائية.</p>
+        
+        <h2>مهمتنا</h2>
+        <p>مهمتنا هي تقديم تجربة تسوق سلسة مع مجموعة واسعة من المنتجات عالية الجودة. نحن ملتزمون بالابتكار والتميز، ونسعى لتجاوز توقعات العملاء وبناء علاقات دائمة.</p>
+
+        <h2>التعرف على الفريق</h2>
+        <div class="team">
+            <div class="team-member">
+                <h3>عضو الفريق</h3>
+                <h3>ساشين غوبتا</h3>
+                <p>المدير التنفيذي ومؤسس</p>
+                <p>ساشين هو القوة الدافعة وراء YourEcommerce، يقود الشركة برؤية وتفاني.</p>
+            </div>
+            <div class="team-member">
+                <h3>عضو الفريق</h3>
+                <h3>أريان راجبار</h3>
+                <p>المدير التشغيلي</p>
+                <p>أريان يدير الأنشطة اليومية، ويضمن سير العمليات بسلاسة وتقديم خدمة ممتازة.</p>
+            </div>
+            <div class="team-member">
+                <h3>عضو الفريق</h3>
+                <h3>شيفام بال</h3>
+                <p>مدير التسويق</p>
+                <p>شيفام يقود جهودنا التسويقية، ويضع استراتيجيات لتعزيز علامتنا التجارية والوصول إلى عملاء جدد.</p>
+            </div>
+        </div>
+    </div>
+
+    <section id="slider-section">
+        <h1 class="explore">اكتشف المزيد!</h1>
+        <div class="paint">
+            <h1>لوحات</h1>
+            <img src="paint.jpg" alt="لوحات">
+
+            <h1>ملابس</h1>
+            <img src="cloth.jpg" alt="ملابس">
+
+            <h1>أحذية</h1>
+            <img src="shoe.jpg" alt="أحذية">
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section aboutus">
+                <h2>من نحن</h2>
+                <p>منصة التجارة الإلكترونية الخاصة بك لجميع احتياجاتك. نقدم منتجات عالية الجودة بأسعار لا تقبل المنافسة.</p>
+            </div>
+            <div class="footer-section links">
+                <h2>روابط سريعة</h2>
+                <ul>
+                    <li><a href="arabic.html">الرئيسية</a></li>
+                    <li><a href="#">تسوق</a></li>
+                    <li><a href="#">من نحن</a></li>
+                    <li><a href="#">اتصل بنا</a></li>
+                    <li><a href="#">الأسئلة الشائعة</a></li>
+                </ul>
+            </div>
+            <div class="footer-section contact">
+                <h2>اتصل بنا</h2>
+                <p><i class="fas fa-envelope"></i> support@ecommerce.com</p>
+                <p><i class="fas fa-phone"></i> +1 234 567 890</p>
+                <p><i class="fas fa-map-marker-alt"></i> 1234 اسم الشارع، المدينة، البلد</p>
+            </div>
+            <div class="accept">
+                <h2>نقبل</h2>
+                <a href="#">فيزا</a>
+                <a href="#">ماستركارد</a>
+                <a href="#">باي بال</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 YourEcommerce | مصمم بواسطة <strong>فريق Hackaholics</strong></p>
+        </div>
+    </footer>
+    <script src="main.js"></script>
+    <script>
+        function changeLanguage() {
+            var lang = document.getElementById('language').value;
+            if (lang) {
+                window.location.href = lang;
+            }
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Кросс-б border E-Commerce</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="loglan">  
+                <div class="logo">                
+                    <a href="#"><img src="logo.jpeg" alt="Логотип"></a>
+                </div>
+                <div class="country">
+                    <select name="language" id="language" onchange="changeLanguage()">
+                        <option value="" disabled selected>Выберите язык</option>
+                        <option value="main.html">English</option>
+                        <option value="hindi.html">हिन्दी</option>
+                        <option value="japanese.html">日本語</option>
+                        <option value="russion.html">русский</option>
+                        <option value="spanish.html">español</option>
+                        <option value="arab.html">عربي</option>
+                        <option value="french.html">français</option>
+                    </select>
+                </div>
+            </div>
+            <ul class="nav-links">
+                <li><a href="russion.html" class="active">Главная</a></li>
+                <li><a href="#">Продукты</a></li>
+                <li><a href="#">О нас</a></li>
+                <li><a href="#">Контакты</a></li>
+            </ul>
+            <div class="login"><a href="login.html">Войти / Зарегистрироваться</a></div>
+            <div class="menu-toggle" id="menu-toggle">☰</div>
+        </nav>
+    </header>
+
+    <section class="categories">
+        <h2>Категории продуктов</h2>
+        <div class="category-container">
+            <a href="#" class="category-item">
+                <img src="electronics.jpg" alt="Электроника">
+                <p>Электроника</p>
+            </a>
+            <a href="#" class="category-item">
+                <img src="fashion.jpeg" alt="Мода">
+                <p>Мода</p>
+            </a>
+            <a href="#" class="category-item">
+                <img src="home.jpeg" alt="Дом и мебель">
+                <p>Дом и мебель</p>
+            </a>
+            <a href="#" class="category-item">
+                <img src="books.jpeg" alt="Книги">
+                <p>Книги</p>
+            </a>
+            <a href="#" class="category-item">
+                <img src="sports.jpeg" alt="Спорт">
+                <p>Спорт</p>
+            </a>
+        </div>
+    </section>
+
+    <section class="hero">
+        <h1 class="about">О нас</h1>
+    </section>
+
+    <div class="container content">
+        <h2>Наша история</h2>
+        <p>Добро пожаловать в YourEcommerce! Мы начали с видением предоставить лучший онлайн-шоппинг опыт. Наша история началась в 2019 году, и с тех пор мы развились в ведущую платформу электронной коммерции, посвященную предоставлению продуктов высокого качества и исключительного обслуживания клиентов.</p>
+        
+        <h2>Наша миссия</h2>
+        <p>Наша миссия — предоставить бесшовный опыт покупок с широким ассортиментом высококачественных продуктов. Мы стремимся к инновациям и совершенству, стремясь превзойти ожидания клиентов и строить долгосрочные отношения.</p>
+
+        <h2>Познакомьтесь с командой</h2>
+        <div class="team">
+            <div class="team-member">
+                <h3>Член команды</h3>
+                <h3>Сачин Гупта</h3>
+                <p>CEO & Founder</p>
+                <p>Сачин является движущей силой YourEcommerce, ведет компанию с видением и преданностью.</p>
+            </div>
+            <div class="team-member">
+                <h3>Член команды</h3>
+                <h3>Ариан Раджбар</h3>
+                <p>COO</p>
+                <p>Ариан управляет повседневной деятельностью, обеспечивая бесперебойную работу процессов и предоставление отличного обслуживания.</p>
+            </div>
+            <div class="team-member">
+                <h3>Член команды</h3>
+                <h3>Шивам Пал</h3>
+                <p>Директор по маркетингу</p>
+                <p>Шивам руководит нашими маркетинговыми усилиями, разрабатывает стратегии для укрепления бренда и привлечения новых клиентов.</p>
+            </div>
+        </div>
+    </div>
+
+    <section id="slider-section">
+        <h1 class="explore">Исследуйте больше!</h1>
+        <div class="paint">
+            <h1>Картины</h1>
+            <img src="paint.jpg" alt="Картины">
+
+            <h1>Одежда</h1>
+            <img src="cloth.jpg" alt="Одежда">
+
+            <h1>Обувь</h1>
+            <img src="shoe.jpg" alt="Обувь">
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section aboutus">
+                <h2>О нас</h2>
+                <p>Ваша платформа электронной коммерции для всех ваших потребностей. Мы предлагаем высококачественные продукты по непревзойденным ценам.</p>
+            </div>
+            <div class="footer-section links">
+                <h2>Быстрые ссылки</h2>
+                <ul>
+                    <li><a href="russian.html">Главная</a></li>
+                    <li><a href="#">Магазин</a></li>
+                    <li><a href="#">О нас</a></li>
+                    <li><a href="#">Контакты</a></li>
+                    <li><a href="#">Часто задаваемые вопросы</a></li>
+                </ul>
+            </div>
+            <div class="footer-section contact">
+                <h2>Контакты</h2>
+                <p><i class="fas fa-envelope"></i> support@ecommerce.com</p>
+                <p><i class="fas fa-phone"></i> +1 234 567 890</p>
+                <p><i class="fas fa-map-marker-alt"></i> 1234 Улица, Город, Страна</p>
+            </div>
+            <div class="accept">
+                <h2>Мы принимаем</h2>
+                <a href="#">Visa</a>
+                <a href="#">Mastercard</a>
+                <a href="#">PayPal</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 YourEcommerce | Дизайн <strong>Team Hackaholics</strong></p>
+        </div>
+    </footer>
+    <script src="main.js"></script>
+    <script>
+        function changeLanguage() {
+            var lang = document.getElementById('language').value;
+            if (lang) {
+                window.location.href = lang;
+            }
+        }
+    </script>
+</body>
+</html>
